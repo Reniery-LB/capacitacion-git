@@ -1,0 +1,49 @@
+{
+  "project": {
+    "name": "Homer's Donut Shop",
+    "version": "1.0.0",
+    "description": "Git Training Project - Unidad III",
+    "author": "Homer Simpson"
+  },
+  "git": {
+    "repository": "capacitacion-git",
+    "mainBranch": "main",
+    "featureBranchPrefix": "feature/"
+  },
+  "features": {
+    "animations": true,
+    "darkMode": false,
+    "notifications": true,
+    "sparkles": true
+  },
+  "team": {
+    "maxMembers": 10,
+    "allowGuests": false,
+    "requireReview": true
+  },
+  "donuts": {
+    "flavors": [
+      "Chocolate",
+      "Strawberry",
+      "Vanilla",
+      "Blueberry",
+      "Rainbow Sprinkles"
+    ],
+    "defaultFlavor": "Chocolate",
+    "maxPerPerson": 3
+  },
+  "training": {
+    "unit": "III",
+    "topic": "Git & GitHub",
+    "duration": "30-40 minutes",
+    "commands": [
+      "git clone",
+      "git add",
+      "git commit",
+      "git push",
+      "git pull",
+      "git branch",
+      "git merge"
+    ]
+  }
+}
