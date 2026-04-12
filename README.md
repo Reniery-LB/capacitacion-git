@@ -16,8 +16,12 @@ La página web incluye:
 ## 🎯 Ejercicio de Clase
 
 ### Instrucciones para cada participante:
+1. **Verificar Git instalado**
+   ```bash
+   git --version
+   ```
 
-1. **Acceder a tu cuenta de GitHub**
+2. **Acceder a tu cuenta de GitHub**
    - Configurar tu nombre:
    ```bash
    git config --global user.name "Tu Nombre"
@@ -27,18 +31,18 @@ La página web incluye:
    git config --global user.email "tu@email.com
    ```
 
-2. **Clonar el repositorio**
+3. **Clonar el repositorio**
    ```bash
    git clone https://github.com/Reniery-lb/capacitacion-git.git
    cd capacitacion-git
    ```
 
-3. **Crear tu rama** (usa tu nombre)
+4. **Crear tu rama** (usa tu nombre)
    ```bash
    git checkout -b feature/tu-nombre
    ```
 
-4. **Editar el archivo `index.html`**
+5. **Editar el archivo `index.html`**
    - Busca la línea que dice:
      ```html
      <!-- Los nombres del equipo se agregarán aquí -->
@@ -48,7 +52,7 @@ La página web incluye:
      <li class="team-member">Tu Nombre Completo - <em>Developer</em></li>
      ```
 
-5. **Hacer commit y push**
+6. **Hacer commit y push**
    ```bash
    git add index.html
    git commit -m "feat: agrega [Tu Nombre] al equipo de desarrollo"
@@ -105,6 +109,6 @@ Este proyecto es parte de una capacitación educativa.
 
 ---
 
-**Created with ❤️ by Homer Simpson & The Team**
+**Created with ❤️ by The Team**
 
 *"Anyone can get a bad commit. It takes courage to fix it."*
