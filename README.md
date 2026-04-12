@@ -19,7 +19,7 @@ La página web incluye:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/TU-USUARIO/capacitacion-git.git
+   git clone https://github.com/Reniery-lb/capacitacion-git.git
    cd capacitacion-git
    ```
 
