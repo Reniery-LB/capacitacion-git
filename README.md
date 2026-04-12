@@ -19,7 +19,7 @@ La página web incluye:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/TU-USUARIO/capacitacion-git.git
+   git clone https://github.com/Reniery-lb/capacitacion-git.git
    cd capacitacion-git
    ```
 
@@ -44,11 +44,6 @@ La página web incluye:
    git commit -m "feat: agrega [Tu Nombre] al equipo de desarrollo"
    git push origin feature/tu-nombre
    ```
-
-5. **(Opcional) Crear Pull Request**
-   - Ve a GitHub
-   - Crea un PR desde tu rama `feature/tu-nombre` → `main`
-   - Pide revisión a un compañero
 
 ---
 
