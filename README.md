@@ -17,18 +17,28 @@ La página web incluye:
 
 ### Instrucciones para cada participante:
 
-1. **Clonar el repositorio**
+1. **Acceder a tu cuenta de GitHub**
+   - Configurar tu nombre:
+   ```bash
+   git config --global user.name "Tu Nombre"
+   ```
+   - Configurar tu email:
+   ```bash
+   git config --global user.email "tu@email.com
+   ```
+
+2. **Clonar el repositorio**
    ```bash
    git clone https://github.com/Reniery-lb/capacitacion-git.git
    cd capacitacion-git
    ```
 
-2. **Crear tu rama** (usa tu nombre)
+3. **Crear tu rama** (usa tu nombre)
    ```bash
    git checkout -b feature/tu-nombre
    ```
 
-3. **Editar el archivo `index.html`**
+4. **Editar el archivo `index.html`**
    - Busca la línea que dice:
      ```html
      <!-- Los nombres del equipo se agregarán aquí -->
@@ -38,7 +48,7 @@ La página web incluye:
      <li class="team-member">Tu Nombre Completo - <em>Developer</em></li>
      ```
 
-4. **Hacer commit y push**
+5. **Hacer commit y push**
    ```bash
    git add index.html
    git commit -m "feat: agrega [Tu Nombre] al equipo de desarrollo"
