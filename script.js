@@ -94,7 +94,7 @@ window.addEventListener('load', () => {
 
 // Easter egg: Konami code
 let konamiCode = [];
-const konamiSequence = [38, 38, 40, 40, 37, 37, 39, 39, 66, 65];
+const konamiSequence = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]; // ↑ ↑ ↓ ↓ ← → ← → B A
 
 document.addEventListener('keydown', (e) => {
     konamiCode.push(e.keyCode);
