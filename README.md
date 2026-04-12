@@ -45,11 +45,6 @@ La página web incluye:
    git push origin feature/tu-nombre
    ```
 
-5. **(Opcional) Crear Pull Request**
-   - Ve a GitHub
-   - Crea un PR desde tu rama `feature/tu-nombre` → `main`
-   - Pide revisión a un compañero
-
 ---
 
 ## 📁 Estructura del Proyecto
